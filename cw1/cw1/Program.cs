@@ -45,7 +45,7 @@ namespace cw1
                     Console.WriteLine("Nie znaleziono żadnych adresów email");  //komunikat o braku adresów
                 else
                     
-                    foreach (var i in uniqueMailAdresses)                       //wypisanie adresów z nowej unikalnej kolekcji, jeżeli istnieją
+                    foreach (var i in uniqueMailAdresses)                        //wypisanie adresów z nowej unikalnej kolekcji, jeżeli istnieją
                     { 
                         Console.WriteLine(i); 
                     }       
